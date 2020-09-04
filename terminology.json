@@ -1,0 +1,36 @@
+{
+	"Key  Terminology": {
+		"Session 1": {
+			"API": {
+				"Acronym": "Application Programming Interface",
+				"Meaning": "An API is a system by which two programs can interface with one another.  It can be any two programs - your mouse's onboard software uses an API to interact with your PC's operating system.  We will pretty much only be talking about APIs in the context of web development though, where the API is used so that front-end, client-side user interface code can interact with back-end, server-side program code.",
+				"Resources": ["https://www.youtube.com/watch?v=s7wmiS2mSXY"]
+			},
+			"REST": {
+				"Acronym": "REpresentational State Transfer",
+				"Meaning": "REST is an API construction paragigm - it's a particular way of making an API.  It's aimed at smoothly and consistently giving a local program access to nonlocal resources.  This allows processing to happen on local hardware, which is innefficient for program logic but GREAT for display logic.",
+				"Resources": ["https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/"]
+			},
+			"Request/Response": {
+				"Acronymn": "Not an acronym.",
+				"Meaning": "The Request/Response cycle is one of the most basic ways computers in a network can communicate.  The client sends a request with a startline, headers, and optional body.  The server replies with a statusline, headers, and an optional body.",
+				"Resources": ["https://medium.com/@jen_strong/the-request-response-cycle-of-the-web-1b7e206e9047", "https://app.skill.social/cdn/storage/Images/RQu49ZN8dsb8QDdFr/original/RQu49ZN8dsb8QDdFr.pdf"]
+			},
+			"CRUD": {
+				"Acronymn": "Create, Read, Update, Destroy",
+				"Meaning": "The four basic functions of database interactions.  These are the four most common actions that are triggered by an API.",
+				"Resources": ["https://www.codecademy.com/articles/what-is-crud"]
+			},
+			"JSON": {
+				"Acronymn": "JavaScript Object Notation",
+				"Meaning": "A very common file format used in APIs.  The layout is very similar to Python's dictionaries, which is super handy!  Resful APIs use JSON files to communicate information.  They're good because they're standardised and they're human-readable.  You're reading one right now!",
+				"Resources": ["https://www.json.org/json-en.html", "https://jsonlint.com/"]
+			},
+			"MVP": {
+				"Acronymn": "Minimum Viable Product (also Maximally Valuable Person, i.e. you! <3)",
+				"Meaning": "The feature set containing all (and only!) the features that your product absolutely must have in order to work.  No frills, just the absolute necessities.",
+				"Resources": ["Your own brain."]
+			}
+		}
+	}
+}
