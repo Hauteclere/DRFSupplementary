@@ -48,7 +48,7 @@ class ProjectDetailSerializer(serializers.Serializer):
 	There are some choices on where to go from here.  With code along these lines, the database should hang together correctly,
 	and existing models which have been assigned categories should display correctly (barring typos on my behalf).  
 	However - given that the category field on the ProjectSerializer is read-only, this alone doesn't provide a way to add/remove 
-	categories from projects, or to create projects with >zero categories associated with them.  
+	categories from projects without going directly through the console, or to create projects with >zero categories associated with them.  
 	
 	Ignoring the more arcane options, the two I usually decide between are...
 	a)	Fool around with adding functionality to your project serializer so that the category field doesn't have to be read-only.
